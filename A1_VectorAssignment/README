@@ -12,7 +12,7 @@ High Level Requirements:
 
 -------------------------------------------------------------------------------------------------------------------------
 
-Class Specifics:
+Class Specific Requirements:
 Write a class Vector3D that represents a 3D vector. This class should contain the following:
 	
 	1.) A constructor that takes in x, y, z components of the vector.
