@@ -1,0 +1,29 @@
+You can run this code and play TicTacToe by using the command:
+	java.exe -jar MVCTicTacToe.jar
+
+Note: your java.exe may be present in a different folder so 
+	make sure to include the full filepath to java.exe for ex.	
+	my java.exe is in the folder C:\Users\me\.jdks\openjdk-16\bin\java.exe
+	so I would use the command:
+	
+	C:\Users\me\.jdks\openjdk-16\bin\java.exe -jar MVCTicTacToe.jar
+
+---------------------------------------------------------------------------------
+Features:
+	- Interface (Super/Sub type relationship) implementation
+	- Model-View-Controller design and implementation
+	- JUnit test 
+---------------------------------------------------------------------------------
+Controller Specifics:
+	- The controller must take in an InputStreamReader object as the first parameter to take in input
+		as this will acts as the controller.
+	- The second parameter of the controller wil take in System.out as this will represent our view.
+	- The controller will have a playGame method that will take in the tictactoe model. 
+------------------------------------------------------------------------------------
+Starter Files:
+	The following files were provided but everything else was implemented by me:
+		1.) Main.java
+		2.) TicTacToeController.java (interface only)
+		3.) TicTacToeControllerTest.java
+		4.) FailingAppendable.java
+	

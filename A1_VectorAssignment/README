@@ -1,0 +1,34 @@
+Features:
+	- JUnit Tests
+------------------------------------------------------------------------------------------------------------------------	
+High Level Requirements:
+	- A vector is commonly used in math and physics and is represented by a direction and magnitude. 
+	- A class called vector was created to represent any vector
+	- A vector object must be able to normalize itself, add itself to another vector, multiply itself with another
+		vector, gee a dot product, and get the angle between itself and another vector
+	- Write tests to confirm class is working appropriately
+	- The vector.java file is in the src folder
+	- The test class is contained in the test folder
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Class Specifics:
+Write a class Vector3D that represents a 3D vector. This class should contain the following:
+	
+	1.) A constructor that takes in x, y, z components of the vector.
+
+	2.) Methods to get the values of individual components (e.g. getX ,etc.).
+
+	3.) A toString() method that returns a string that describes this vector. This string should be of the form “(x,y,z)” replacing the letters with their values. Each component should be formatted to round to exactly two decimal places (look at the String.format method to see how to do this).
+
+	4.) A method getMagnitude() that returns its magnitude.
+
+	5.) A method normalize() that returns a normalized version of this vector.It should throw an IllegalStateException object if this operation cannot be completed.
+
+	6.) A method add() that returns the result of adding this vector to another vector. It should not change the vectors that are being added.
+
+	7.) A method multiply that returns the result of multiplying this vector by a constant. It should not change the vector that is being multiplied.
+
+	8.) A method dotProduct that returns the dot product of this vector and another vector. It should not change the two vectors.
+
+	9.) A method angleBetween that returns the angle between two vectors in degrees. It should not change the two vectors. It should throw an IllegalStateException if this operation cannot be completed.

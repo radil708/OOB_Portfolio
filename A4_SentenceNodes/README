@@ -1,0 +1,37 @@
+Features:
+	- Interface (Super/Sub type relationship) implementation
+	- Implemented node and recursive data structure
+	- JUnit Testing
+==========================================================================================
+High Level Requirements:
+	- Create a recursive structure that represents a sentence
+	- Each node in the recursive structure should represent a word or punctuation
+		and the structure must end with an EmptyNode
+	
+---------------------------------------------------------------------------------------------
+Define the following operations for such a list of words:
+
+	A method getNumberOfWords that computes and returns the number of words in a sentence. 
+		The punctuation does not count as a word. This method should answer/return an int.
+
+	A method longestWord that determines and returns the longest word in a sentence. The word 
+		returned is just the word, and should not begin or end with punctuation. If the 
+		sentence contains no words, longestWord should return an empty string.
+		This method should answer/return a String
+
+	A method toString that will convert the sentence into one string. There must be a space 
+		between every two words. A punctuation mark should have no space between it and 
+		whatever precedes it. There is no space between the last word and the end of this
+		 sentence. If there is no punctuation mark at the end of the sentence, this string 
+		should end with a period (this method should NOT add a period to the original sentence
+		 object, but the String answered by this method should properly have the period)
+		This method should answer/return a String
+
+	A method clone() that returns a duplicate of a given sentence. A duplicate is a list that
+		 has the same words and punctuation in the same sequence, but is independent of the original list.
+		This method should answer/return a Sentence
+
+	A method merge(Sentence other) that will merge two sentences into a single sentence. 
+		The merged list should preserve all the punctuation. The merged list should be
+		returned by this method, and the original lists should be unchanged.
+		This method should answer/return a Sentence

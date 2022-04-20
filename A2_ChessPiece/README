@@ -1,0 +1,56 @@
+Features:
+	- Interface (Super/Sub type relationship) implementation
+	- Abstract (Super/Sub class relationship) implementation
+	- JUnit Testing
+----------------------------------------------------------------------------------------------------------
+High Level requirements:
+	- Create a representation of chesspieces on a chessboard
+	- Utilize an interface (subtype relationship) that every chesspiece object will implement
+	- Create the following classes: Pawn, Knight, Queen, Rook, Pawn
+	- Each chesspiece can determine if it can move to particular position on the board, or 
+		kill/capture another piece.
+	- A cell on the board is specified by a (row, column) tuple: rows increasing from bottom to top 
+		and columns increasing from left to right. Traditionally the black pieces are arranged 
+		in the top two rows as show
+	- Write tests for each chesspiece
+	- All class files are in src folder
+	- All test classes are in tests folder
+------------------------------------------------------------------------------------------------------------
+Chess Piece Specifics and Movement Descriptions
+
+Each chess piece can move in a specific way. In addition to moving, each chess piece can 
+	also kill/capture a chess piece of the opposite color if it moves to its place. 
+	The rules for each chess piece are as follows:
+
+Bishop: A bishop can only move diagonally, and kill any opponent’s piece if it can move to its place.
+
+Knight: A knight can move only in an L pattern: two cells horizontally and one vertically or vice versa. 
+	It can kill any opponent’s piece if it can move to its place.
+
+Queen: A queen can move horizontally, vertically and diagonally. It can kill any opponent’s piece if 
+	it can move to its place.
+
+Rook: A rook can move horizontally or vertically. It can kill any opponent’s piece if it can move to its place.
+
+Pawn: A pawn is interesting: it can move only “ahead,” not backwards towards where its color started. It 
+	can move only one place forward in its own column. However, to kill it must move one place 
+	forward diagonally (it cannot kill by moving straight).
+---------------------------------------------------------------------------------------------------------------
+ChessPiece Interface Requirements
+
+Each chess piece should be able to:
+
+	(a) return its current position on the chess board, as methods getRow() and getColumn()
+
+	(b) return its color as an enum Color
+
+	(c) determine if it can move to a given cell, as a method canMove(int row, int col),
+
+	(d) determine if it can kill a provided piece starting from where it currently is, 
+	as a method canKill(ChessPiece piece). In addition, each chess piece should have a constructor 
+	that takes in an initial position as a row and column, and a color as an enum Color with 
+	values BLACK and WHITE.
+
+	Note: All rows and columns begin at "index" 0. Rows decrease in number from top to bottom in the 
+	above chessboard. Therefore the "top" row shown on the graphic above (where the Black non-pawn 
+	pieces are positioned) is row 7.
