@@ -10,7 +10,7 @@ Each folder contains a README that contains information regarding code features 
 For a quick reference, I will list out the features implemented/used for each assignment below:
 
 	A1: 	
-		- JUnit Tests
+		- JUnit Testing
 -----------------------------------------------------------------------	
 	A2: 
 		- Interface (Super/Sub type relationship) implementation
@@ -32,4 +32,4 @@ For a quick reference, I will list out the features implemented/used for each as
 	A5:
 		- Interface (Super/Sub type relationship) implementation
 		- Model-View-Controller design and implementation
-		- JUnit test 
+		- JUnit Testing
