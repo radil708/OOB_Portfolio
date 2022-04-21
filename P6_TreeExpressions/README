@@ -1,11 +1,12 @@
 Language: Python
 
+----------------------------------------------------------------------------------------
 Features:
 	- Implementation of a recursive tree structure
 	- Implementation of an string equation parser
 	- Can solve tree expressions
+	
 ----------------------------------------------------------------------------------------
-
 This was part of another one of my projects (NetworkingP1 Repo). In that project
 One of the tasks was to take input in the form of:
 
