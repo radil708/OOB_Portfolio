@@ -19,6 +19,7 @@ The mathematical operators all follow their usual definition except for the <<^
 		a <<^ b means (a << 13) (xor) b
 
 Example of valid txpr: ( 5 * ( 2 <<^ -3 ) )
+
 -----------------------------------------------------------------------------------------
 My Strategy:
 	- I create nodes that would make up an expression tree
