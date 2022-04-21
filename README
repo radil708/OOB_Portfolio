@@ -9,27 +9,32 @@ Each folder contains a README that contains information regarding code features 
 
 For a quick reference, I will list out the features implemented/used for each assignment below:
 
-	A1: 	
+	P1:						Language: Java
 		- JUnit Testing
 -----------------------------------------------------------------------	
-	A2: 
+	P2:						Language: Java
 		- Interface (Super/Sub type relationship) implementation
 		- Abstract (Super/Sub class relationship) implementation
 		- JUnit Testing
 -----------------------------------------------------------------------		
-	A3:
+	P3:						Language: Java
 		- Interface (Super/Sub type relationship) implementation
 		- Abstract (Super/Sub class relationship) implementation
 		- JUnit Testing
 		- Data structure Utilization (list, hashmap, etc..)
 		- Iterator Utilization
 -----------------------------------------------------------------------
-	A4:
+	P4:						Language: java
 		- Interface (Super/Sub type relationship) implementation
 		- Implemented node and recursive data structure
 		- JUnit Testing
 -----------------------------------------------------------------------
-	A5:
+	P5:						Language: Java
 		- Interface (Super/Sub type relationship) implementation
 		- Model-View-Controller design and implementation
 		- JUnit Testing
+----------------------------------------------------------------------
+	P6:						Language: Python
+		- Implementation of a recursive tree structure
+		- Implementation of an string equation parser
+----------------------------------------------------------------------
