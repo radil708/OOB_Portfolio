@@ -1,0 +1,25 @@
+Language: Python
+
+Features:
+	- Implementation of a recursive tree structure
+	- Implementation of an string equation parser
+	- Can solve tree expressions
+----------------------------------------------------------------------------------------
+
+This was part of another one of my projects (NetworkingP1 Repo). In that project
+One of the tasks was to take input in the form of:
+
+	txpr := [int] | '(' [txpr] [op] [txpr] ')'
+	op   := '+' | '-' | '*' | '//' | '<<^'
+
+The mathematical operators all follow their usual definition except for the <<^
+	operator which meant left bitshift by 13 and XOR.
+	For ex.
+		a <<^ b means (a << 13) (xor) b
+
+Example of valid txpr: ( 5 * ( 2 <<^ -3 ) )
+-----------------------------------------------------------------------------------------
+My Strategy:
+	- I create nodes that would make up an expression tree
+	- The tree is able to recursively build and solve itself using the txpr passed in
+	- I tested all the functions and classes I used. These can be found in the tests directory.
