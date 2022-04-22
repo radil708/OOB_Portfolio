@@ -32,6 +32,7 @@ For a quick reference, I will list out the features implemented/used for each as
 	P5:						Language: Java
 		- Interface (Super/Sub type relationship) implementation
 		- Model-View-Controller design and implementation
+		- User input
 		- JUnit Testing
 ----------------------------------------------------------------------
 	P6:						Language: Python
