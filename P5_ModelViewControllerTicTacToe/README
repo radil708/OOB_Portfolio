@@ -13,9 +13,13 @@ Note: your java.exe may be present in a different folder so
 
 ---------------------------------------------------------------------------------
 Features:
+	- Conditionals
+	- While loop
+	- For loop
 	- Interface (Super/Sub type relationship) implementation
 	- Model-View-Controller design and implementation
-	- JUnit test 
+	- User input
+	- JUnit Testing
 ---------------------------------------------------------------------------------
 Controller Specifics:
 	- The controller must take in an InputStreamReader object as the first parameter to take in input
