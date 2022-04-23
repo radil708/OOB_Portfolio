@@ -33,6 +33,9 @@ For a quick reference, I will list out the features implemented/used for each as
 		- JUnit Testing
 -----------------------------------------------------------------------
 	P5:						Language: Java
+		- Conditionals
+		- While loop
+		- For loop
 		- Interface (Super/Sub type relationship) implementation
 		- Model-View-Controller design and implementation
 		- User input
