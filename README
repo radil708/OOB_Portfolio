@@ -42,6 +42,11 @@ For a quick reference, I will list out the features implemented/used for each as
 		- JUnit Testing
 ----------------------------------------------------------------------
 	P6:						Language: Python
+		- Conditionals
+		- For loops
+		- Implementation of a recursive tree structure
+		- Implementation of an string equation parser
+		- Can solve tree expressions
 		- Implementation of a recursive tree structure
 		- Implementation of an string equation parser
 		- PyUnit Testing
